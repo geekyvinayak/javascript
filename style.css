@@ -17,7 +17,7 @@ ul {
     display: flex;
     list-style-type: none;
     margin-bottom: 5rem;
-    width: 80%;
+    width: 50%;
     justify-content: center;
     margin-top: 1.5rem;
 }

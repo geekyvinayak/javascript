@@ -1,5 +1,5 @@
 body {
-    font-size: medium;
+    font-size: 16px;
     display: flex;
     height: 97.5vh;
     background: linear-gradient(to bottom, #0099cc 0%, #ff99cc 100%);
@@ -7,6 +7,8 @@ body {
     align-items: center;
     font-family: Roboto, 'sans-serif';
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 #maindiv {
@@ -45,4 +47,11 @@ input {
     color: white;
     border: none;
     cursor: pointer;
+}
+a {
+    color: blue;
+    text-decoration: none; /* no underline */
+  }
+footer{
+    margin: 20px;
 }

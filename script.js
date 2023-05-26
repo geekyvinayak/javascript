@@ -15,13 +15,13 @@ function updateUI(projects){
     
         listItem.innerHTML = `
             <span class="project-number">${index}</span>
-            <a href="/${name}/index.html" class="project-name">
+            <a class="project-name" target="_blank">
                 ${projectNameFormater(name)}
             </a>
-            <a href=${demo} class="container-links">
+            <a href=${demo} class="container-links" target="_blank">
                 Demo <i class="fa fa-desktop" aria-hidden="true"></i>
             </a>
-            <a href=${code} class="container-links">
+            <a href=${code} class="container-links" target="_blank">
                 Code <i class="fa fa-code" aria-hidden="true"></i>
             </a>
         `;
